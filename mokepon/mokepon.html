@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mokepon!</title>
+    <script src="./js/mokepon.js"></script>
+</head>
+
+<body>
+    <h1>Mokepon! 🔥💧🍀</h1>
+
+    <section id="section-pet">
+        <h2>Select your pet:</h2>
+
+        <label for="Capipepo">Capipepo</label>
+        <input type="radio" name="pet" id="Capipepo"/>
+
+        <label for="Ratigueya">Ratigueya</label>
+        <input type="radio" name="pet" id="Ratigueya"/>
+
+        <label for="Langostelvis">Langostelvis</label>
+        <input type="radio" name="pet" id="Langostelvis"/>
+
+
+        <button id="button-pet">Select</button>
+    </section>
+
+    <section id="section-atack">
+        <h2>Select your atack</h2>
+
+        <p>Your pet <span id="pet-player"></span> has <span> 3 </span> lifes</p>
+        <p>The pet enemy <span id="pet-pc"></span> has <span> 3 </span> lifes</p>
+
+
+        <p>
+            <button id="button-fire">Fire 🔥</button>
+            <button id="button-water">Water 💧</button>
+            <button id="button-earth">Earth 🍀</button>
+        </p>
+    </section>  
+
+    <section id="messages">
+        <p>Your pet atack whith fire, the pet enemgy atack whith earth - You win!! 😄</p>
+    </section>
+
+    <section id="restart">
+        <button id="button-restart">Restart</button>
+    </section>
+    
+</body>
+</html>
